@@ -1,16 +1,19 @@
 <html>
  	<head>
-	 	<title>relaxo-Topia</title>
+	 	<title>Relaxotopia</title>
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <!-- this is a bootstrap to make the navigation bar-->
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	    <link rel="stylesheet" type="text/css" href="CSS/index.css">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
  	</head>
-<!--hbjh--!>
 	<body>
 	   <!-- Here we are creating the navigation bar for our website -->
-	   <nav class="navbar navbar-inverse">
+	   <nav class="navbar navbar-inverse" >
+	   <style type="text/css" ></style>
           <div class="container-fluid">
              <div class="navbar-header">
     			  <a class="navbar-brand" href="index.html">Relaxotopia</a>
@@ -20,6 +23,7 @@
       			<li class="active"><a href="index.html">Home</a></li>
      			<li ><a href="Pages/about.html">About us</a></li>
     		 </ul>
+
              <ul class="nav navbar-nav navbar-right">
      			<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
     			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -37,14 +41,16 @@
 		    <!-- Wrapper for slides -->
 		    <div class="carousel-inner">
 		        <div class="item active">
-		        <img src="Pictures\stress.jpg" alt="Stressed?" >
+		        <img src="Pictures\stress.jpg" alt="Stressed?" width="100%" height="60%"> >
 		    	</div>
 
 		    	<div class="item">
-		        <img src="Pictures/relax2.jpg" alt="Want to relax?" width=1080 height=675>
+		        <img src="Pictures/relax2.jpg" alt="Want to relax?" width="100%" height="60%">
 		  		</div>
 			</div>
 
+
+ 
 			<!-- Left and right controls for the image slider-->
 			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
 		   		<span class="glyphicon glyphicon-chevron-left"></span>
@@ -54,7 +60,47 @@
 		    	<span class="glyphicon glyphicon-chevron-right"></span>
 		    	<span class="sr-only">Next</span>
 			</a>
-	   </div>
+	     </div>
+         <h1> <center> If you want to Relax, you can click on the button below. This will lead you to your relax zone, that we created specially for you ♥ .</center></h1>
+         <br><br> 
+         <center><button type="button" >Relax Me!</button></center>
+         <br><br><br><br>
+         
 
- 	</body>
+       <!--Making a contact us form -->
+       <div class="container-fluid bg-grey">
+          <h2 class="text-center">Contact Us</h2>
+          <br> <br>
+          <div class="row">
+             <div class="col-sm-5">
+	       <h4>Contact us and we'll get back to you within 24 hours.</h4>
+	       <h4><span class="glyphicon glyphicon-map-marker"></span> Cairo, Egypt</h4>
+	       <h4><span class="glyphicon glyphicon-phone"></span> +01001824230</h4>
+	       <h4><span class="glyphicon glyphicon-envelope"></span> r.m.elhelw@sce.aucegypt.edu</h4> 
+             </div>
+             <div class="col-sm-7">
+             <div class="row">
+             <div class="col-sm-6 form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+             </div>
+             <div class="col-sm-6 form-group">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+             </div>
+             </div>
+             <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+             <div class="row">
+             <div class="col-sm-12 form-group">
+             <button class="btn btn-default pull-right" type="submit">Send</button>
+             <br><br><br><br><br>
+		       <div id="footer">
+		        <a href="https://www.facebook.com/Relaxotopia-125227228110843/" class="fa fa-facebook"></a>
+				<a href="https://www.youtube.com/user/CGMeetUp" class="fa fa-youtube"></a>
+		       </div>
+		     </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
