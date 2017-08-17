@@ -17,7 +17,7 @@ h2{ color: white; }
     height: 60px;
  }
 body {
-  background-image: url("Pictures/space1.png"); 
+  background-image: url("../Pictures/bg1.png"); 
 }
 
 /*The rounded faded on hover social media buttons */
