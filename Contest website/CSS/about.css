@@ -1,10 +1,26 @@
 
-.p1 {
-background-color: red;
+#p1 {
+
+color: white;
+font-size: 16;
+    text-align: center;
 }
 #p2 {
-background-color: black;
+color:white;
+font-size: 16;
+    text-align: center;
+
+
 }
 #p3{
-background-color:green;  
+color: white; 
+font-size: 16;
+    text-align: center;
+
+
  }
+
+body {
+background-image: url(../Pictures/space.png);
+
+}
