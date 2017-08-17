@@ -1,8 +1,9 @@
 
 body {
-background-image: url(../Pictures/space1.png);
+background-image: url(../Pictures/bg.jpg);
 color: white;
 text-align: center;
+font-weight : bold;
 
 }
 h1{
