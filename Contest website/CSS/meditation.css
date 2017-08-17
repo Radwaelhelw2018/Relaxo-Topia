@@ -1,12 +1,13 @@
 
 body {
-background-image: url(../Pictures/space1.png);
+background-image: url(../Pictures/bg.jpg);
 color: white;
 
 }
 h1{
 	color:#9b59b6;
 	text-align: center;
+	font-weight: bold;
 
 }
 h3{ text-align: center;
