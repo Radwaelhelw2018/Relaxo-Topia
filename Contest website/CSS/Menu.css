@@ -66,6 +66,7 @@ body
     background-color: black;
 	border-bottom: 5px solid white;
 	text-shadow: 0px -2px white;
+	text-align: center;
 }
 .action-button:active
 {
@@ -75,6 +76,5 @@ body
 }
 
 body{
-
-	background-image: url("../Pictures/space.jpg");
+	background-image: url("../Pictures/space1.png");
 }
