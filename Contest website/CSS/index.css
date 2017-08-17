@@ -19,7 +19,13 @@ h2{ color: white; }
 body {
   background-image: url("../Pictures/bg1.png"); 
 }
+.white{
+    background-color: navy;
+  border-bottom: 5px solid white;
+  position: absolute;
+  margin-left: 40%;
 
+}
 /*The rounded faded on hover social media buttons */
 .fa {
   padding: 10px;
